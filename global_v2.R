@@ -412,9 +412,14 @@ run_simulation <- function(input, name, sample, titles, description, overExpress
   
   if (length(overExpressedMiRNA) + length(underExpressedMiRNA) == 1){
     tmpMiRNA <- NULL
-    if (!is.null(overExpressedMiRNA)) tmpMiRNA <- overExpressedMiRNA
-    else tmpMiRNA <- underExpressedMiRNA
-    name <- paste(name, tmpMiRNA, " - ")
+    if (!is.null(overExpressedMiRNA)) {
+      tmpMiRNA <- overExpressedMiRNA
+      name <- paste(name, tmpMiRNA, "(+) - ")
+    }
+    else {
+      tmpMiRNA <- underExpressedMiRNA
+      name <- paste(name, tmpMiRNA, "(-) - ")
+      }
   }
   
   simulation_parameters <-
@@ -439,26 +444,8 @@ run_simulation <- function(input, name, sample, titles, description, overExpress
   if (!is.null(simulation$data)) {
     result <- submit_simulation(simulation$data$id)
     
-    showModal(modalDialog(title = "Simulation Started",
-                          result,
-                          easyClose = TRUE))
+    return(result)
     
-    return (renderDT({
-      df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
-      datatable(
-        df,
-        options = list(
-          lengthChange = FALSE,
-          rowId = ~ id,
-          order = list(list(0, 'desc')),
-          pageLength = 5
-        ),
-        selection = "single",
-        rownames = FALSE
-      )
-      
-      #add_experiment(name)
-    }))
   } else{
     showModal(modalDialog(title = "Simulation Failed",
                           simulation,

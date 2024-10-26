@@ -137,9 +137,9 @@ ui <- fluidPage(sidebarLayout(
     actionButton(inputId = "showParameters", label = "Show parameters"),
     downloadButton(outputId = "downloadResult", label = "Download results"),
     actionButton(inputId = "open_website", label = "More details"),
-    titlePanel("Combine results"),
-    textInput("job_id_range", "Inserisci range di Job ID (es. 1001-1005,1008):", ""),
-    downloadButton("download_combined_tsv", "Scarica CSV combinato")
+    titlePanel("Merge results"),
+    textInput("job_id_range", "Insert Job IDs (es. 1001-1005,1008):", ""),
+    downloadButton("download_combined_tsv", "Merge & download")
   ),
 ))
 
@@ -195,7 +195,7 @@ server <- function(input, output, session) {
       pubmedid <- NULL
     }
     
-    print(pubmedid)
+    #print(pubmedid)
     
     db <- filter_mirandola_DB(organism = organism, pubmedid = pubmedid)
     
@@ -251,8 +251,8 @@ server <- function(input, output, session) {
         )
       ))
     } else {
-      if (input$selected_submitType == "COMPACT")
-        output$data <- run_simulation(input, 
+      if (input$selected_submitType == "COMPACT"){
+        result <- run_simulation(input, 
                        NULL,
                        input$selected_sample,
                        global_values$titles[input$pubmedid],
@@ -265,8 +265,93 @@ server <- function(input, output, session) {
                        input$fdr,
                        input$selected_miRNAsEvidence,
                        input$input_parameters)
-      else
-        print("ciao")
+        
+        showModal(modalDialog(title = "Simulation Started",
+                              result,
+                              easyClose = TRUE))
+        
+        output$data <- renderDT({
+          df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+          datatable(
+            df,
+            options = list(
+              lengthChange = FALSE,
+              rowId = ~ id,
+              order = list(list(0, 'desc')),
+              pageLength = 5
+            ),
+            selection = "single",
+            rownames = FALSE
+          )})
+          
+        print("Submitted compact simulation")
+      }
+      else{
+        withProgress(message = 'Starting splitted simulations...', value = 0, {
+          total_mirnas <- length(input$selected_overexpressed_miRNA) + length(input$selected_underexpressed_miRNA)
+          
+          # Ciclo per miRNA sovraespressi
+          for (mirna in input$selected_overexpressed_miRNA) {
+            run_simulation(input, 
+                           NULL,
+                           input$selected_sample,
+                           global_values$titles[input$pubmedid],
+                           input$description,
+                           mirna,
+                           NULL,
+                           input$selected_organism,
+                           input$epsilon,
+                           input$randomSeed,
+                           input$fdr,
+                           input$selected_miRNAsEvidence,
+                           input$input_parameters)
+            
+            # Incrementa la barra di progresso
+            incProgress(1 / total_mirnas)
+          }
+          
+          # Ciclo per miRNA sottoespressi
+          for (mirna in input$selected_underexpressed_miRNA) {
+            run_simulation(input, 
+                           NULL,
+                           input$selected_sample,
+                           global_values$titles[input$pubmedid],
+                           input$description,
+                           NULL,
+                           mirna,
+                           input$selected_organism,
+                           input$epsilon,
+                           input$randomSeed,
+                           input$fdr,
+                           input$selected_miRNAsEvidence,
+                           input$input_parameters)
+            
+            # Incrementa la barra di progresso
+            incProgress(1 / total_mirnas)
+          }
+        })
+        
+        showModal(modalDialog(title = "Simulations Started",
+                              NULL,
+                              easyClose = TRUE))
+        
+        output$data <- renderDT({
+          df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+          datatable(
+            df,
+            options = list(
+              lengthChange = FALSE,
+              rowId = ~ id,
+              order = list(list(0, 'desc')),
+              pageLength = 5
+            ),
+            selection = "single",
+            rownames = FALSE
+          )
+        })
+        
+        print("Submitted splitted run")
+      } 
     }
   })
   
@@ -274,7 +359,7 @@ server <- function(input, output, session) {
     name <- input$name
     if (!is.null(name) && name != "") {
       removeModal()
-      output$data <- run_simulation(input, 
+      result <- run_simulation(input, 
                      name,
                      input$selected_sample,
                      global_values$titles[input$pubmedid],
@@ -287,6 +372,25 @@ server <- function(input, output, session) {
                      input$fdr,
                      input$selected_miRNAsEvidence,
                      input$input_parameters)
+      
+      showModal(modalDialog(title = "Simulation Started",
+                            result,
+                            easyClose = TRUE))
+      
+      output$data <- renderDT({
+        df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+        datatable(
+          df,
+          options = list(
+            lengthChange = FALSE,
+            rowId = ~ id,
+            order = list(list(0, 'desc')),
+            pageLength = 5
+          ),
+          selection = "single",
+          rownames = FALSE
+        )
+      })
     }
   })
   
@@ -473,7 +577,7 @@ server <- function(input, output, session) {
       showModal(
         modalDialog(
           title = "Simulation parameters",
-          "Nessuna simulazione selezionata",
+          "Select at least one simulation",
           easyClose = TRUE
         )
       )
@@ -489,7 +593,7 @@ server <- function(input, output, session) {
         showModal(
           modalDialog(
             title = "Failed",
-            "Nessuna simulazione selezionata",
+            "Select at least one simulation",
             easyClose = TRUE
           )
         )
@@ -500,7 +604,7 @@ server <- function(input, output, session) {
     content = function(file) {
       if (!is.null(global_values$selected_id)) {
         # Aggiunta della barra di progresso
-        withProgress(message = 'Download in corso...', value = 0, {
+        withProgress(message = 'Download in progress...', value = 0, {
           
           # Incremento la barra di progresso al 25%
           incProgress(0.25)
@@ -521,7 +625,7 @@ server <- function(input, output, session) {
         showModal(
           modalDialog(
             title = "Failed",
-            "Nessuna simulazione selezionata",
+            "Select at least one simulation",
             easyClose = TRUE
           )
         )
@@ -559,7 +663,7 @@ server <- function(input, output, session) {
       paste("combined_results_", Sys.Date(), ".tsv", sep = "")
     },
     content = function(file) {
-      withProgress(message = 'Download in corso...', value = 0, {
+      withProgress(message = 'Download in progress...', value = 0, {
         job_ids <- parse_job_id_range(input$job_id_range)
         incProgress(0.25)
         
@@ -567,7 +671,7 @@ server <- function(input, output, session) {
         incProgress(0.50)
         
         if (nrow(combined_df) == 0) {
-          stop("Nessun risultato da scaricare.")
+          stop("Result is empty.")
         }
         
         write.table(combined_df, file, sep = "\t", row.names = FALSE, col.names = TRUE, quote = FALSE)
