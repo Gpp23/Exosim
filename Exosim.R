@@ -255,7 +255,7 @@ server <- function(input, output, session) {
         result <- run_simulation(input, 
                        NULL,
                        input$selected_sample,
-                       global_values$titles[input$pubmedid],
+                       global_values$titles[input$selected_pubmedid],
                        input$description,
                        input$selected_overexpressed_miRNA,
                        input$selected_underexpressed_miRNA,
@@ -295,7 +295,7 @@ server <- function(input, output, session) {
             run_simulation(input, 
                            NULL,
                            input$selected_sample,
-                           global_values$titles[input$pubmedid],
+                           global_values$titles[input$selected_pubmedid],
                            input$description,
                            mirna,
                            NULL,
@@ -315,7 +315,7 @@ server <- function(input, output, session) {
             run_simulation(input, 
                            NULL,
                            input$selected_sample,
-                           global_values$titles[input$pubmedid],
+                           global_values$titles[input$selected_pubmedid],
                            input$description,
                            NULL,
                            mirna,
@@ -332,7 +332,17 @@ server <- function(input, output, session) {
         })
         
         showModal(modalDialog(title = "Simulations Started",
-                              NULL,
+                              paste0(
+                                paste0(
+                                  "Overexpressed miRNAs: ",
+                                  paste0(input$selected_overexpressed_miRNA, collapse = "- ")
+                                ),
+                                paste0(
+                                  "Underexpressed miRNAs: ",
+                                  paste0(input$selected_underexpressed_miRNA, collapse = "- ")
+                                ),
+                                collapse = "\n"
+                              ),
                               easyClose = TRUE))
         
         output$data <- renderDT({
@@ -362,7 +372,7 @@ server <- function(input, output, session) {
       result <- run_simulation(input, 
                      name,
                      input$selected_sample,
-                     global_values$titles[input$pubmedid],
+                     global_values$titles[input$selected_pubmedid],
                      input$description,
                      input$selected_overexpressed_miRNA,
                      input$selected_underexpressed_miRNA,
