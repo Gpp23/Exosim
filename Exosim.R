@@ -1,147 +1,168 @@
 library(shiny)
+library(shinythemes)
 library(shinyWidgets)
 library(DT)
 source("global_v2.R")
 
-ui <- fluidPage(sidebarLayout(
-  sidebarPanel(
-    titlePanel("Phensim parameters"),
-    
-    pickerInput(
-      inputId = "selected_organism",
-      label = "Organism:",
-      multiple = FALSE,
-      choices = NULL,
-      options = list(
-        `actions-box` = TRUE,
-        liveSearch = TRUE,
-        liveSearchPlaceholder = TRUE,
-        noneSelectedText = "Nothing selected"
-      )
-    ),
-    
-    selectizeInput(
-      inputId = "selected_pubmedid",
-      label = "PubMed Id:",
-      choices = NULL,
-      options = list(
-        placeholder = "Nothing selected",
-        allowEmptyOption = TRUE
-      )
-    ),
-    
-    pickerInput(
-      inputId = "selected_sample",
-      label = "Sample:",
-      multiple = FALSE,
-      choices = NULL,
-      options = list(
-        `actions-box` = TRUE,
-        liveSearch = TRUE,
-        liveSearchPlaceholder = TRUE,
-        noneSelectedText = "Nothing selected"
-      )
-    ),
-    
-    pickerInput(
-      inputId = "selected_overexpressed_miRNA",
-      label = "OverExpressed MiRNA:",
-      multiple = TRUE,
-      choices = NULL,
-      options = list(
-        `actions-box` = TRUE,
-        liveSearch = TRUE,
-        liveSearchPlaceholder = TRUE,
-        noneSelectedText = "Nothing selected"
-      )
-    ),
-    
-    pickerInput(
-      inputId = "selected_underexpressed_miRNA",
-      label = "UnderExpressed MiRNA:",
-      multiple = TRUE,
-      choices = NULL,
-      options = list(
-        `actions-box` = TRUE,
-        liveSearch = TRUE,
-        liveSearchPlaceholder = TRUE,
-        noneSelectedText = "Nothing selected"
-      )
-    ),
-    
-    selectInput(
-      "fdr",
-      label = "FDR method:",
-      choices = c(
-        "Benjamini & Hochberg" = "BH",
-        "Q-value (Storey et al.)" = "QV",
-        "Local FDR (Efron et al.)" = "LOC"
+
+ui <- fluidPage(
+  theme = "paper",
+  
+  # Titolo principale con sottotitolo
+  tags$div(
+    style = "text-align: center; margin-bottom: 20px;",
+    tags$h1("Exosim", style = "color: #f39c12; font-size: 3em; margin: 0;"),
+    tags$h3("Exosomes simulator", style = "color: #343a40; font-weight: 300;")
+  ),
+  
+  sidebarLayout(
+    sidebarPanel(
+      titlePanel("Phensim parameters"),
+      
+      pickerInput(
+        inputId = "selected_organism",
+        label = "Organism:",
+        multiple = FALSE,
+        choices = NULL,
+        options = list(
+          `actions-box` = TRUE,
+          liveSearch = TRUE,
+          liveSearchPlaceholder = TRUE,
+          noneSelectedText = "Nothing selected"
+        )
       ),
-      selected = "BH"
+      
+      selectizeInput(
+        inputId = "selected_pubmedid",
+        label = "PubMed Id:",
+        choices = NULL,
+        options = list(
+          placeholder = "Nothing selected",
+          allowEmptyOption = TRUE
+        )
+      ),
+      
+      pickerInput(
+        inputId = "selected_sample",
+        label = "Sample:",
+        multiple = FALSE,
+        choices = NULL,
+        options = list(
+          `actions-box` = TRUE,
+          liveSearch = TRUE,
+          liveSearchPlaceholder = TRUE,
+          noneSelectedText = "Nothing selected"
+        )
+      ),
+      
+      pickerInput(
+        inputId = "selected_overexpressed_miRNA",
+        label = "OverExpressed MiRNA:",
+        multiple = TRUE,
+        choices = NULL,
+        options = list(
+          `actions-box` = TRUE,
+          liveSearch = TRUE,
+          liveSearchPlaceholder = TRUE,
+          noneSelectedText = "Nothing selected"
+        )
+      ),
+      
+      pickerInput(
+        inputId = "selected_underexpressed_miRNA",
+        label = "UnderExpressed MiRNA:",
+        multiple = TRUE,
+        choices = NULL,
+        options = list(
+          `actions-box` = TRUE,
+          liveSearch = TRUE,
+          liveSearchPlaceholder = TRUE,
+          noneSelectedText = "Nothing selected"
+        )
+      ),
+      
+      selectInput(
+        "fdr",
+        label = "FDR method:",
+        choices = c(
+          "Benjamini & Hochberg" = "BH",
+          "Q-value (Storey et al.)" = "QV",
+          "Local FDR (Efron et al.)" = "LOC"
+        ),
+        selected = "BH"
+      ),
+      
+      numericInput(
+        "epsilon",
+        label = "Epsilon:",
+        value = 0.001,
+        min = 0,
+        step = 0.001,
+        width = "300px"
+      ),
+      
+      numericInput(
+        "random_seed",
+        label = "Random Seed:",
+        value = 780,
+        width = "300px"
+      ),
+      
+      pickerInput(
+        inputId = "selected_miRNAsEvidence",
+        label = "miRNAsEvidence",
+        choices = c("STRONG", "WEAK", "PREDICTION"),
+        multiple = FALSE,
+        selected = "STRONG",
+        options = list(
+          `actions-box` = TRUE,
+          liveSearch = TRUE,
+          liveSearchPlaceholder = TRUE
+        )
+      ),
+      
+      pickerInput(
+        inputId = "selected_submitType",
+        label = "Simulation type",
+        choices = c("COMPACT", "SPLITTED"),
+        multiple = FALSE,
+        selected = "COMPACT",
+        options = list(
+          `actions-box` = TRUE,
+          liveSearch = TRUE,
+          liveSearchPlaceholder = TRUE
+        )
+      ),
+      fileInput("input_parameters", "Input Parameters"),
+      textInput(
+        inputId = "description",
+        label = "Description"
+      ),
+      actionButton(inputId = "run_query_simulation", label = "Submit simulation")
     ),
-    
-    numericInput(
-      "epsilon",
-      label = "Epsilon:",
-      value = 0.001,
-      min = 0,
-      step = 0.001,
-      width = "300px"
-    ),
-    
-    numericInput(
-      "random_seed",
-      label = "Random Seed:",
-      value = 780,
-      width = "300px"
-    ),
-    
-    pickerInput(
-      inputId = "selected_miRNAsEvidence",
-      label = "miRNAsEvidence",
-      choices = c("STRONG", "WEAK", "PREDICTION"),
-      multiple = FALSE,
-      selected = "STRONG",
-      options = list(
-        `actions-box` = TRUE,
-        liveSearch = TRUE,
-        liveSearchPlaceholder = TRUE
-      )
-    ),
-    
-    pickerInput(
-      inputId = "selected_submitType",
-      label = "Simulation type",
-      choices = c("COMPACT", "SPLITTED"),
-      multiple = FALSE,
-      selected = "COMPACT",
-      options = list(
-        `actions-box` = TRUE,
-        liveSearch = TRUE,
-        liveSearchPlaceholder = TRUE
-      )
-    ),
-    fileInput("input_parameters", "Input Parameters"),
-    textInput(
-      inputId = "description",
-      label = "Description"
-    ),
-    actionButton(inputId = "run_query_simulation", label = "Submit simulation")
+    mainPanel(
+      titlePanel("Phensim simulations"),
+      DTOutput('data'),
+      titlePanel("Pathway results"),
+      DTOutput('result'),
+      actionButton(inputId = "showGenes", label = "Show expressed genes"),
+      actionButton(inputId = "showParameters", label = "Show parameters"),
+      downloadButton(outputId = "downloadResult", label = "Download results"),
+      actionButton(inputId = "open_website", label = "More details"),
+      titlePanel("Merge results"),
+      textInput("job_id_range", "Insert Job IDs (es. 1001-1005,1008):", ""),
+      downloadButton("download_combined_tsv", "Merge & download")
+    )
   ),
-  mainPanel(
-    titlePanel("Phensim simulations"),
-    DTOutput('data'),
-    titlePanel("Pathway results"),
-    DTOutput('result'),
-    actionButton(inputId = "showGenes", label = "Show expressed genes"),
-    actionButton(inputId = "showParameters", label = "Show parameters"),
-    downloadButton(outputId = "downloadResult", label = "Download results"),
-    actionButton(inputId = "open_website", label = "More details"),
-    titlePanel("Merge results"),
-    textInput("job_id_range", "Insert Job IDs (es. 1001-1005,1008):", ""),
-    downloadButton("download_combined_tsv", "Merge & download")
-  ),
-))
+  
+  # Footer
+  tags$footer(
+    style = "position: fixed; bottom: 0; width: 100%; background-color: #1c1c1c; color: #f39c12; text-align: center; padding: 10px; font-size: 0.9em;",
+    "© 2023 - 2024 Giuseppe Condorelli - University of Catania, Italy"
+  )
+)
+
+
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
