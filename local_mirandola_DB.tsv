@@ -1,0 +1,526 @@
+RNA	RNA_class	miRBase_Last_Version	miRBase_accession	miRBase_family	circRNA_accession	organism	exRNA_type	sample	disease_or_cell_line	PubMed_ID	method	description
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-543				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-542-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-502-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-501-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-495-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-493-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-450b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-4433b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-409-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-381-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-378a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-375-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-374a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-370-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-363-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-342-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-338-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-32-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-224-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-223-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-215-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-199a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-199a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-197-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-193a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-150-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-146b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-146a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-144-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1246				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-11400				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-543				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-542-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-502-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-501-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-495-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-493-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-450b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-4433b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-409-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-381-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-378a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-375-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-374a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-370-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-363-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-342-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-338-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-32-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-224-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-223-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-215-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-199a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-199a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-197-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-193a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-150-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-146b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-146a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-144-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1246				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-11400				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-543				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-542-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-502-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-501-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-495-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-493-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-450b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-4433b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-409-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-381-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-378a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-375-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-374a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-370-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-363-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-342-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-338-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-32-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-224-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-223-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-215-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-199a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-199a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-197-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-193a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-150-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-146b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-146a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-144-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1246				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-11400				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-1-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-Pneumonia	34956213		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-486-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-4433b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-4433b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-432-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-378a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-335-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-206				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-200a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-199a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-1-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7e-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7d-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7c-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-486-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-4433b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-4433b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-432-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-378a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-335-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-206				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-200a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-199a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-1-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7e-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7d-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7c-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-486-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-4433b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-4433b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-432-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-378a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-335-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-206				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-200a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-199a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-1-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7e-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7d-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7c-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-let-7a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS	34956213 (CA)		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-99a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-98-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-941				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-93-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-7706				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-769-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-6842-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-664a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-652-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-548o-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-532-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-502-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-499a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-423-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-375-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-3615				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-361-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-361-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-30a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-27a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-26b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-223-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-20b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-197-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-193b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-192-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-191-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-17-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-16-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-15b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-151a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1307-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1299				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1273h-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-122-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-11400				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-106b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-103a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-let-7g-5p				Homo sapiens	exosome	Series1_NHBE_Mock	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-99a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-98-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-941				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-93-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-7706				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-769-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-6842-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-664a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-652-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-548o-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-532-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-502-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-499a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-423-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-375-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-3615				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-361-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-361-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-30a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-27a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-26b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-223-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-20b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-197-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-193b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-192-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-191-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-17-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-16-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-15b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-151a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1307-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1299				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1273h-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-122-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-11400				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-106b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-103a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-let-7g-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-99a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-98-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-941				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-93-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-7706				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-769-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-6842-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-664a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-652-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-548o-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-532-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-502-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-499a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-423-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-375-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-3615				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-361-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-361-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-3168				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-30a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-27a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-26b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-223-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-20b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-197-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-193b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-192-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-191-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-17-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-16-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-15b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-151a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-148a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1307-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1299				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-1273h-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-122-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-11400				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-106b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-103a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-let-7g-5p				Homo sapiens	exosome	Series9_NHBE_IAV	CoV-ARDS_d14	34956213 (CAd14)		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-7-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-501-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-378c				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-345-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-320a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-32-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-27a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-185-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-15a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-148-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-148a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-145-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-1301-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-let-7g-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-let-7b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-7-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-501-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-378c				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-345-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-320a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-32-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-27a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-185-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-15a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-148-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-148a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-145-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-1301-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-let-7g-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-let-7b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-99b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-7-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-582-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-501-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-378c				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-345-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-320a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-32-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-27a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-185-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-15a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-148-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-148a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-145-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-1301-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-let-7g-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-let-7b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Bacterial-Pneumonia	34956213 (BP)		
+	miRNA	hsa-miR-99a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-92b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-92a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-542-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-511-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-484				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-4732-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-4433b-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-425-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-423-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-378c				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-363-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-342-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)	
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)	
+	miRNA	hsa-miR-30c-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-30a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-27b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-194-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-192-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-191-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-18a-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-182-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-15b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-150-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-144-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-let-7c-5p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-let-7b-3p				Homo sapiens	exosome	Series1_NHBE_Mock	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-99a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-92b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-92a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-542-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-511-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-484				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-4732-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-4433b-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-425-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-423-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-378c				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-363-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-342-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-30c-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-30a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-27b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-194-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-192-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-191-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-18a-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-182-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-15b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-150-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-144-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-let-7c-5p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-let-7b-3p				Homo sapiens	exosome	Series1_NHBE_SARS-CoV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-99a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-92b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-92a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-654-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-542-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-511-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-484				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-4732-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-4433b-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-425-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-423-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-378c				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-363-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-342-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-340-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)
+	miRNA	hsa-miR-335-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-30c-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-30a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-27b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-221-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-20a-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-194-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-192-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-191-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-18a-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-182-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-15b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-150-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-146-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-144-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-142-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-139-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-126-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-1228-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-miR-100-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-let-7c-5p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
+	miRNA	hsa-let-7b-3p				Homo sapiens	exosome	Series9_NHBE_IAV	Sepsis-ARDS	34956213 (SA)		
