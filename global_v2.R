@@ -395,6 +395,78 @@ delete_simulation <- function(JOB_ID) {
   }
 }
 
+run_simulation <- function(input, name, sample, titles, description, overExpressedMiRNA, underExpressedMiRNA, organism, epsilon, randomSeed, fdr, miRNAsEvidence, inputParameters) {
+  if (is.null(name)) {
+    name <- paste(titles, sample, description, sep = " - ")
+  }
+  
+  # Inizializzare nonExpressedGenes
+  nonExpressedGenes <- NULL
+  
+  # Controllare se input$selected_sample è una colonna di sample_DB
+  if (gsub("-", ".",sample) %in% colnames(sample_DB)) {
+    
+    # Filtrare i geni con espressione < 10 nella colonna specificata da input$selected_sample
+    nonExpressedGenes <- sample_DB$gene[sample_DB[[sample]] == 1]
+  }
+  
+  if (length(overExpressedMiRNA) + length(underExpressedMiRNA) == 1){
+    tmpMiRNA <- NULL
+    if (!is.null(overExpressedMiRNA)) tmpMiRNA <- overExpressedMiRNA
+    else tmpMiRNA <- underExpressedMiRNA
+    name <- paste(name, tmpMiRNA, " - ")
+  }
+  
+  simulation_parameters <-
+    set_simulation_parameters(
+      name = name,
+      organism = unlist(organisms[organism])[1],
+      epsilon = epsilon,
+      seed = randomSeed,
+      fdr = fdr,
+      reactome = 1,
+      fast = NULL,
+      miRNAs = NULL,
+      miRNAsEvidence = miRNAsEvidence,
+      submit = NULL,
+      simulationParametersFile = set_simulation_input(overExpressedMiRNA, underExpressedMiRNA, inputParameters$datapath),
+      nonExpressedNodesFile = set_nonExpressedNodes(nonExpressedGenes)
+    )
+  
+  simulation <-
+    create_simulation(simulation_parameters = simulation_parameters)
+  
+  if (!is.null(simulation$data)) {
+    result <- submit_simulation(simulation$data$id)
+    
+    showModal(modalDialog(title = "Simulation Started",
+                          result,
+                          easyClose = TRUE))
+    
+    return (renderDT({
+      df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+      datatable(
+        df,
+        options = list(
+          lengthChange = FALSE,
+          rowId = ~ id,
+          order = list(list(0, 'desc')),
+          pageLength = 5
+        ),
+        selection = "single",
+        rownames = FALSE
+      )
+      
+      #add_experiment(name)
+    }))
+  } else{
+    showModal(modalDialog(title = "Simulation Failed",
+                          simulation,
+                          easyClose = TRUE))
+    return(NULL)
+  }
+}
+
 
 
 

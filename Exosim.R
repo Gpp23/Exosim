@@ -126,7 +126,7 @@ ui <- fluidPage(sidebarLayout(
       inputId = "description",
       label = "Description"
     ),
-    actionButton(inputId = "run_query_simulation", label = "Submit simulation"),
+    actionButton(inputId = "run_query_simulation", label = "Submit simulation")
   ),
   mainPanel(
     titlePanel("Phensim simulations"),
@@ -252,9 +252,21 @@ server <- function(input, output, session) {
       ))
     } else {
       if (input$selected_submitType == "COMPACT")
-        run_simulation(input, NULL)
+        output$data <- run_simulation(input, 
+                       NULL,
+                       input$selected_sample,
+                       global_values$titles[input$pubmedid],
+                       input$description,
+                       input$selected_overexpressed_miRNA,
+                       input$selected_underexpressed_miRNA,
+                       input$selected_organism,
+                       input$epsilon,
+                       input$randomSeed,
+                       input$fdr,
+                       input$selected_miRNAsEvidence,
+                       input$input_parameters)
       else
-        
+        print("ciao")
     }
   })
   
@@ -262,80 +274,22 @@ server <- function(input, output, session) {
     name <- input$name
     if (!is.null(name) && name != "") {
       removeModal()
-      run_simulation(input, name)
+      output$data <- run_simulation(input, 
+                     name,
+                     input$selected_sample,
+                     global_values$titles[input$pubmedid],
+                     input$description,
+                     input$selected_overexpressed_miRNA,
+                     input$selected_underexpressed_miRNA,
+                     input$selected_organism,
+                     input$epsilon,
+                     input$randomSeed,
+                     input$fdr,
+                     input$selected_miRNAsEvidence,
+                     input$input_parameters)
     }
   })
   
-  run_simulation <- function(input, name) {
-    if (is.null(name)) {
-      name <- paste(global_values$titles[input$selected_pubmedid], input$selected_sample, input$description, sep = " - ")
-    }
-    
-    # Inizializzare nonExpressedGenes
-    nonExpressedGenes <- NULL
-    
-    # Controllare se input$selected_sample è una colonna di sample_DB
-    if (gsub("-", ".",input$selected_sample) %in% colnames(sample_DB)) {
-      
-      # Filtrare i geni con espressione < 10 nella colonna specificata da input$selected_sample
-      nonExpressedGenes <- sample_DB$gene[sample_DB[[input$selected_sample]] == 1]
-    }
-    
-    if (length(input$selected_overexpressed_miRNA) + length(input$selected_underexpressed_miRNA) == 1){
-      tmpMiRNA <- NULL
-      if (!is.null(input$selected_overexpressed_miRNA)) tmpMiRNA <- input$selected_overexpressed_miRNA
-      else tmpMiRNA <- input$selected_underexpressed_miRNA
-      name <- paste(name, tmpMiRNA, " - ")
-    }
-    
-    simulation_parameters <-
-      set_simulation_parameters(
-        name = name,
-        organism = unlist(organisms[input$selected_organism])[1],
-        epsilon = input$epsilon,
-        seed = input$random_seed,
-        fdr = input$fdr,
-        reactome = 1,
-        fast = NULL,
-        miRNAs = NULL,
-        miRNAsEvidence = input$selected_miRNAsEvidence,
-        submit = NULL,
-        simulationParametersFile = set_simulation_input(input$selected_overexpressed_miRNA, input$selected_underexpressed_miRNA, input$input_parameters$datapath),
-        nonExpressedNodesFile = set_nonExpressedNodes(nonExpressedGenes)
-      )
-    
-    simulation <-
-      create_simulation(simulation_parameters = simulation_parameters)
-    
-    if (!is.null(simulation$data)) {
-      result <- submit_simulation(simulation$data$id)
-      
-      showModal(modalDialog(title = "Simulation Started",
-                            result,
-                            easyClose = TRUE))
-      
-      output$data <- renderDT({
-        df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
-        datatable(
-          df,
-          options = list(
-            lengthChange = FALSE,
-            rowId = ~ id,
-            order = list(list(0, 'desc')),
-            pageLength = 5
-          ),
-          selection = "single",
-          rownames = FALSE
-        )
-        
-        #add_experiment(name)
-      })
-    } else{
-      showModal(modalDialog(title = "Simulation Failed",
-                            simulation,
-                            easyClose = TRUE))
-    }
-  }
   
   output$data <- renderDT({
     df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
