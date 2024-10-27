@@ -234,7 +234,11 @@ get_simulation_result <- function(JOB_ID) {
   
   url <- glue("https://phensim.tech/api/v1/simulations/{JOB_ID}/download/output")
   
+  print("Global: Waiting for response...")
+  
   response <- GET(url, add_headers(headers))
+  
+  print("Global: Response obtained!!")
   
   # Controlla lo stato della risposta
   if (http_type(response) == "application/json" && http_error(response)) {

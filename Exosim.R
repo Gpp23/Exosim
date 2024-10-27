@@ -292,7 +292,7 @@ server <- function(input, output, session) {
                               easyClose = TRUE))
         
         output$data <- renderDT({
-          df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+          df <- list_simulations()$data[, c('id', 'name', 'readable_status', 'created_at')]
           datatable(
             df,
             options = list(
@@ -367,7 +367,7 @@ server <- function(input, output, session) {
                               easyClose = TRUE))
         
         output$data <- renderDT({
-          df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+          df <- list_simulations()$data[, c('id', 'name', 'readable_status', 'created_at')]
           datatable(
             df,
             options = list(
@@ -409,7 +409,7 @@ server <- function(input, output, session) {
                             easyClose = TRUE))
       
       output$data <- renderDT({
-        df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+        df <- list_simulations()$data[, c('id', 'name', 'readable_status', 'created_at')]
         datatable(
           df,
           options = list(
@@ -427,7 +427,7 @@ server <- function(input, output, session) {
   
   
   output$data <- renderDT({
-    df <- list_simulations()$data[, c('id', 'name', 'readable_status')]
+    df <- list_simulations()$data[, c('id', 'name', 'readable_status', 'created_at')]
     datatable(
       #df[order(df$id, decreasing = TRUE), ],
       df,
@@ -488,7 +488,7 @@ server <- function(input, output, session) {
       
       global_values$selected_id <- simulation_id
       
-      print(simulation_id)
+      print(paste0("Getting result for: ",simulation_id))
       
       result <- get_simulation_result(simulation_id)
       
