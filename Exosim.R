@@ -2,11 +2,15 @@ library(shiny)
 library(shinythemes)
 library(shinyWidgets)
 library(DT)
+
 source("global_v2.R")
+
+source("simulations_heatmap.R")
 
 
 ui <- fluidPage(
   theme = "paper",
+ # theme = "styles.css",
   
   # Titolo principale con sottotitolo
   tags$div(
@@ -151,7 +155,8 @@ ui <- fluidPage(
       actionButton(inputId = "open_website", label = "More details"),
       titlePanel("Merge results"),
       textInput("job_id_range", "Insert Job IDs (es. 1001-1005,1008):", ""),
-      downloadButton("download_combined_tsv", "Merge & download")
+      downloadButton("download_combined_tsv", "Merge & download"),
+      actionButton("show_heatmap", "Heatmap viewer"),
     )
   ),
   
@@ -166,6 +171,19 @@ ui <- fluidPage(
 
 # Define server logic required to draw a histogram
 server <- function(input, output, session) {
+  
+  observeEvent(input$show_heatmap, {
+    showModal(
+      modalDialog(
+        title = "Heatmap Viewer",
+        heatmapAppUI("heatmap_module"),
+        size = "l",
+        easyClose = TRUE
+      )
+    )
+    heatmapAppServer("heatmap_module")
+  })
+  
   global_values <-
     reactiveValues(titles = NULL,
                    url = NULL,
@@ -710,8 +728,6 @@ server <- function(input, output, session) {
       })
     }
   )
-  
-  
   
 }
 

@@ -34,7 +34,7 @@ load_and_merge_data <- function(remote_url, local_path) {
     
     return(combined_DB)
   }, error = function(e) {
-    cat("Si è verificato un errore durante il tentativo di leggere il file:", conditionMessage(e), "\n")
+    cat("Error occured while trying to read the file:", conditionMessage(e), "\n")
     return(NULL)
   })
 }
